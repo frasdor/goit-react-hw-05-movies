@@ -1,0 +1,12 @@
+/* src/components/Cast/Cast.module.css */
+.container {
+    padding: 20px;
+  }
+  .castList {
+    list-style: none;
+    padding: 0;
+  }
+  .castItem {
+    margin-bottom: 10px;
+  }
+  

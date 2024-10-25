@@ -1,0 +1,21 @@
+.container {
+    padding: 20px;
+  }
+  .movieList {
+    list-style: none;
+    padding: 0;
+  }
+  .movieItem {
+    margin-bottom: 10px;
+  }
+  .movieItem a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.movieItem a:hover {
+    color: #e73da6; 
+}
+h1 {
+    color: rgb(47, 10, 51);
+}

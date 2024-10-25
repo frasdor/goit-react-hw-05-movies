@@ -1,0 +1,21 @@
+/* src/App.module.css */
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #662c50;
+    padding: 10px;
+  }
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .nav a {
+    color: #61e3fa;
+    text-decoration: none;
+    font-size: large;
+  }
+  

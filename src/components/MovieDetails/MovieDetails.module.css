@@ -1,0 +1,35 @@
+/* src/components/MovieDetails/MovieDetails.module.css */
+.container {
+    padding: 20px;
+  }
+  .poster {
+    width: 300px; /* lub inna szerokość, w zależności od preferencji */
+    height: auto;
+    border-radius: 8px; /* dla zaokrąglonych rogów */
+    margin-bottom: 20px; /* odstęp od tekstu */
+  }
+
+.genresLi {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+    text-decoration: none;
+}
+.additionalInfoList li {
+    margin-bottom: 10px; 
+}
+
+.additionalInfoList a {
+    font-size: 18px;
+    text-decoration: none; 
+    color: #6e0847;  
+    transition: color 0.3s ease; 
+}
+
+.additionalInfoList a:hover {
+    color: #e73da6; 
+}
