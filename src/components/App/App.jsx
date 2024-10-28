@@ -16,11 +16,11 @@ const App = () => {
       <div className={styles.container}>
         <nav className={styles.nav}>
           <ul>
-            <li>
-              <a href="/">Home</a>
+          <li>
+              <Link to="/">Home</Link> 
             </li>
             <li>
-              <a href="/movies">Movies</a>
+              <Link to="/movies">Movies</Link> 
             </li>
           </ul>
         </nav>
