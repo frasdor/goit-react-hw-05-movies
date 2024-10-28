@@ -12,7 +12,7 @@ const Reviews = lazy(() => import('../Reviews/Reviews'));
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/goit-react-hw-05-movies">
       <div className={styles.container}>
         <nav className={styles.nav}>
           <ul>
